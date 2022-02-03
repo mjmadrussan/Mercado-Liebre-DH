@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+}
+
+h3{
+    font-size: 24px;
+    color: #666;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.botones button{
+    padding: 20px;
+    margin: 10px 15px;
+}
+.form input{
+    width: 50%;
+    margin-bottom: 10px;
+}
+form label{
+    margin-bottom: 10px;
+}
+.archivo{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* header */
+div.top-header{
+    padding: 5%;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo{
+    width: 50%;
+}
+
+header div.logo{
+    padding: 10px;
+}
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 23px;
+    margin: 10px 0px 20px 0px;
+    padding: 4px;
+    width: 33px;
+}
+.cuotas{
+    margin: auto;
+}
+
+.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+    
+    .cuotas{
+        margin: auto;
+    }
+    .navegacion{
+        display: none;
+    }
+    .busqueda button{
+        position: relative;
+        left:-18px;
+        border: none;
+        background-color: white;
+    }
+/*footer*/
+    #item1,
+ #item2,
+ #item3{
+   width: 2em;
+   margin-bottom: 10px;
+   margin: auto;
+ }
+footer{
+    text-align: center;
+}
+.copyright{
+    margin-top: 10px;
+}
+@media(min-width: 769px){
+    .footer{
+        display: flex;
+        margin-top: 20px;
+    }
+    .burger-menu{
+        display: none
+    }
+   
+    .busqueda button{
+        position: static;
+        background-color: lightgray;
+        border: 1px black solid;
+    }
+    
+    header div .logo{
+        max-width: 500px;
+        width: 25%
+    }
+    .top-header{
+        flex-wrap: nowrap;
+    }
+    .busqueda{
+        margin-left: 20px;
+    }
+    .navegacion{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 15px;
+    }
+    .navegacion ul{
+        display: flex;
+    }
+    .navegacion a{
+        padding: 20px;
+    }
+    .cuotas{
+        margin-left: 40px;
+    }
+    .busqueda input{
+        width: 20vw;
+        margin-left: 50px;
+    }
+}
+@media(min-width:1200px){
+    .top-header{
+        margin-left: 100px;
+    }
+    .cuotas p{
+        font-size: 16px;
+    }
+    footer i:hover{
+        color:blueviolet
+    }
+    footer i{
+        transition: all .3s;
+    }
+    .copyright{
+        text-align: left;
+        margin-top: 25px;
+    }
+    footer{
+        margin-top: 50px;
+    }
+    .navegacion{
+        font-size: 1rem;
+    }
+    .cuotas{
+        margin-left: 75px;
+    }
+    .busqueda form{
+        font-size: 1rem;
+    }
+    .mano{
+        font-size: 1.5rem;
+    }
+    .busqueda input{
+        height: 5vh;
+        font-size: 15px;
+    }
+    .busqueda button{
+        height: 5vh;
+        width: 3vw;
+    }
+    .lupa{
+        font-size: 15px ;
+    }
+}
